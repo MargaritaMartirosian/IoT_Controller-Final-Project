@@ -11,3 +11,6 @@ Two ultrasonic sensors, each linked to an individual LED that illuminates based 
 - ESP32 Microcontroller: Serves as the central hub, interfacing between sensors, actuators, and the MQTT broker.
 - Raspberry Pi as MQTT Broker: Facilitates communication across the system's components, ensuring responsive and reliable data transfer.
 -  Independent Servo Control: Incorporates two servo motors, controlled separately using an Arduino Uno, adding another dimension to the system's capabilities.
+
+## Video
+https://youtu.be/Xszdq82md7Q 
