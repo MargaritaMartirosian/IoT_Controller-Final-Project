@@ -1,0 +1,90 @@
+[
+    {
+        "conditions": [
+            {"topic": "sensor/ultrasonic1",
+             "comparison": "<",
+             "value": 10}
+        ],
+        "results": [
+            {"topic": "control/led",
+            "value": "On"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/ultrasonic1",
+             "comparison": ">",
+             "value": 10}
+        ],
+        "results": [
+            {"topic": "control/led",
+             "value": "Off"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/ultrasonic2",
+             "comparison": "<",
+             "value": 10}
+        ],
+        "results": [
+            {"topic": "control/led3",
+             "value": "On"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/ultrasonic2",
+             "comparison": ">",
+             "value": 10}
+        ],
+        "results": [
+            {"topic": "control/led3",
+             "value": "Off"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/motion",
+             "comparison": "==",
+             "value": "Detected"}
+        ],
+        "results": [
+            {"topic": "control/buzzer",
+             "value": "On"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/motion",
+             "comparison": "==",
+             "value": "Not Detected"}
+        ],
+        "results": [
+            {"topic": "control/buzzer",
+             "value": "Off"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/infrared",
+             "comparison": "==",
+             "value": "Detected"}
+        ],
+        "results": [
+            {"topic": "control/led2",
+             "value": "On"}
+        ]
+    },
+    {
+        "conditions": [
+            {"topic": "sensor/infrared",
+             "comparison": "==",
+             "value": "Not Detected"}        ],
+
+        "results": [
+            {"topic": "control/led2",
+             "value": "Off"}
+        ]
+    }
+]
