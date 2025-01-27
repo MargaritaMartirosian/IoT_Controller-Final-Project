@@ -8,9 +8,9 @@ in applications such as smart homes, security systems, or environmental monitori
 #include <WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid ="iot_wireless";
-const char* password ="Unsecure!";
-const char* mqtt_server = "margakate-pi";
+const char* ssid =""; //Insert your ssid
+const char* password =""; //Insert your password 
+const char* mqtt_server = ""; //Insert your mqtt server name
 const int mqtt_port = 1883;
 
 unsigned long lastSensorReadTime = 0;
