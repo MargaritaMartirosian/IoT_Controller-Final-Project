@@ -1,5 +1,5 @@
 # IoT_Controller-Final-Project
-Canadian Military Base Security System 
+Canadian Military Base Security System:
 This project showcases an advanced IoT-based system that integrates multiple components to create a cohesive and interactive environment. Utilizing the robust MQTT protocol for communication, the system includes four sensors and four output devices, all orchestrated through an ESP32 microcontroller and a Raspberry Pi.
 
 Key Features:
